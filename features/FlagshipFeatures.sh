@@ -23,6 +23,8 @@ echo ""
 echo "1:A235F"
 echo "2:A235M"
 echo "3:SM-X200"
+echo "4:A525F"
+
 
 echo ""
 read -p "Choose: " user_device_version
@@ -43,4 +45,10 @@ if [ $user_device_version == 3 ]
 then
 
 bash features/BuildProp/SM-X200/Flagship-Features-x200.sh
+fi
+
+if [ $user_device_version == 4 ]
+then
+
+bash features/BuildProp/A525F/Flagship-Features-A525F.sh
 fi

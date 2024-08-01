@@ -11,6 +11,9 @@ ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg=="
 echo "Will Delete All AFFT Changes And Restore Default Files (buildprop,floating-features,camera-features)"
 echo "1:A235F"
 echo "2:A235M"
+echo "3:SM-X200"
+echo "4:A525F"
+
 read -p "Choose: " user_restore_default
 
 if [ $user_restore_default == 1 ]
@@ -32,6 +35,38 @@ if [ $user_restore_default == 2 ]
 then
 sudo mount -o rw,remount / && sudo mount -o rw,remount / /dev/null 2>&1
 sudo cp features/RestoreDefault/A235M/build.prop /system > /dev/nill 2>&1
+sleep 1
+sudo cp features/RestoreDefault/floating_feature.xml /system/etc > /dev/null 2>&1
+sleep 1
+sudo cp features/RestoreDefault/camera-feature.xml /system/cameradata > /dev/null 2>&1
+sleep 2
+echo "Done"
+sleep 1
+echo "Back To Main Menu Again"
+sleep 1
+clear ; bash AFFT.sh
+fi
+
+if [ $user_restore_default == 3 ]
+then
+sudo mount -o rw,remount / && sudo mount -o rw,remount / /dev/null 2>&1
+sudo cp features/RestoreDefault/SM-X200/build.prop /system > /dev/nill 2>&1
+sleep 1
+sudo cp features/RestoreDefault/floating_feature.xml /system/etc > /dev/null 2>&1
+sleep 1
+sudo cp features/RestoreDefault/camera-feature.xml /system/cameradata > /dev/null 2>&1
+sleep 2
+echo "Done"
+sleep 1
+echo "Back To Main Menu Again"
+sleep 1
+clear ; bash AFFT.sh
+fi
+
+if [ $user_restore_default == 4 ]
+then
+sudo mount -o rw,remount / && sudo mount -o rw,remount / /dev/null 2>&1
+sudo cp features/RestoreDefault/A525F/build.prop /system > /dev/nill 2>&1
 sleep 1
 sudo cp features/RestoreDefault/floating_feature.xml /system/etc > /dev/null 2>&1
 sleep 1
