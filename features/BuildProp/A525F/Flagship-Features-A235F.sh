@@ -69,7 +69,7 @@ sleep 2
 
 echo -e "\033[32mEnable Flagships Features\033[0m"
 
-sudo cp features/BuildProp/A235F/build.prop /system && sudo cp features/BuildProp/A235F/build.prop /system > /dev/null 2>&1
+sudo cp features/BuildProp/A525F/build.prop /system && sudo cp features/BuildProp/A525F/build.prop /system > /dev/null 2>&1
 
 sleep 1
 
