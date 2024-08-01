@@ -22,6 +22,8 @@ echo "Choose Your Device Version"
 echo ""
 echo "1:A235F"
 echo "2:A235M"
+echo "3:SM-X200"
+
 echo ""
 read -p "Choose: " user_device_version
 
@@ -35,4 +37,10 @@ if [ $user_device_version == 2 ]
 then
 
 bash features/BuildProp/A235M/Flagship-Features-A235M.sh
+fi
+
+if [ $user_device_version == 3 ]
+then
+
+bash features/BuildProp/SM-X200/Flagship-Features-x200.sh
 fi
