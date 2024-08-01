@@ -84,7 +84,7 @@ pkg update ; pkg install git
 
 - After install packages copy this command to clone the tool and run it
 ```sh
-git clone https://github.com/mrx7014/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.sh
+git clone https://github.com/Monsiu/AFFT ; cd AFFT ; chmod +x AFFT.sh ; ./AFFT.sh
 ```
 
 <br>

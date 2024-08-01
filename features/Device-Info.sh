@@ -63,7 +63,7 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Black.png
+xdg-open https://github.com/Monsiu/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Black.png
 
 sleep 2
 
@@ -101,7 +101,7 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Blue.png
+xdg-open https://github.com/Monsiu/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Blue.png
 
 sleep 2
 
@@ -139,7 +139,7 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Gold.png
+xdg-open https://github.com/Monsiu/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Gold.png
 
 sleep 2
 
@@ -177,7 +177,7 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Gray.png
+xdg-open https://github.com/Monsiu/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Gray.png
 
 sleep 2
 
@@ -215,7 +215,7 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Green.png
+xdg-open https://github.com/Monsiu/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Green.png
 
 sleep 2
 
@@ -253,7 +253,7 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Orange.png
+xdg-open https://github.com/Monsiu/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Orange.png
 
 sleep 2
 
@@ -291,7 +291,7 @@ echo "Will open a web browser to preview color that you choose"
 
 sleep 2
 
-xdg-open https://github.com/mrx7014/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Violet.png
+xdg-open https://github.com/Monsiu/AFFT/blob/master/features/Device-Info-Photos/DeviceImageS24U-Violet.png
 
 sleep 2
 
