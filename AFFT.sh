@@ -11,7 +11,7 @@ ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo="
 
 echo -e "\033[91mWelcome to AFFT Tool\033[0m"
 echo -e "\033[93mVersion: 6.2.0 - Stable\033[0m"
-echo -e "\033[32mCreated By: MRX7014\033[0m"
+echo -e "\033[32mCreated By: MRX7014 X Monsiu \033[0m"
 
 sleep 1
 
